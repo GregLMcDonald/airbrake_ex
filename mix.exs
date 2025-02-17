@@ -31,7 +31,7 @@ defmodule AirbrakeEx.MixProject do
 
   defp deps() do
     [
-      {:httpoison, "~> 1.8"},
+      {:httpoison, "~> 2.0"},
       {:jason, "~> 1.4.4"},
       {:bypass, "~> 2.1", only: :test},
       {:ex_doc, "~> 0.31", only: :dev, runtime: false},
